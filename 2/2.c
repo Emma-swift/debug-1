@@ -1,4 +1,4 @@
-#include <stdio.h>
+include <stdio.h>
 
 int main() {
     int matrix_a[10][10];
@@ -17,7 +17,7 @@ int main() {
             scanf("%d",&matrix_b[i][j]);
         }
     }
-    int matrix_c[10][10];
+    int matrix_c[10][10]={0};
     int c;
     for(i=0;i<m;i++){
         for(j=0;j<m;j++){

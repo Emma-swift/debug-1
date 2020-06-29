@@ -22,7 +22,7 @@ int main() {
     {
         for(i=0;i<m;i++)
         {
-            scanf("%d",&matrix_a[j][i]);
+            scanf("%d",&matrix_b[j][i]);
         }
     }
    for(i=0;i<m;i++)
